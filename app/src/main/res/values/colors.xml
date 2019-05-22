@@ -2,5 +2,14 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+
+    <!-- Basic color of the app -->
+    <color name="colorBackground">#0A131A</color>
+    <color name="colorMenuBackground">#0F1A20</color>
+    <color name="colorAccent">#643EA3</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorLogoOrange">#F79A06</color>
+    <color name="colorLogoRed">#EA4003</color>
+    <color name="colorLogoBlue">#2CB1CA</color>
 </resources>
