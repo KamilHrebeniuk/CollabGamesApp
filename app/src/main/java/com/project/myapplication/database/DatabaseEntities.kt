@@ -1,6 +1,5 @@
 package com.project.myapplication.database
 
-import android.app.Person
 import android.arch.persistence.room.*
 import java.util.Date
 
@@ -215,23 +214,23 @@ data class ProjectsTable(
 
 @Entity(tableName = "tags")
 data class TagsTable(
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int,
     @ColumnInfo(name = "Tag") var tag: String
 )
 {
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int = 1
     companion object {
         fun populateEntity(): Array<TagsTable>
         {
             return arrayOf(
-                TagsTable(1, "Action"),
-                TagsTable(2, "RPG"),
-                TagsTable(3, "Strategy"),
-                TagsTable(4, "Economic"),
-                TagsTable(5, "Simulation"),
-                TagsTable(6, "Casual"),
-                TagsTable(7, "Racing"),
-                TagsTable(8, "Sport"),
-                TagsTable(9, "Logical")
+                TagsTable("Action"),
+                TagsTable("RPG"),
+                TagsTable("Strategy"),
+                TagsTable("Economic"),
+                TagsTable("Simulation"),
+                TagsTable("Casual"),
+                TagsTable("Racing"),
+                TagsTable("Sport"),
+                TagsTable("Logical")
             )
         }
     }
@@ -301,17 +300,17 @@ data class PeopleTable(
 @Entity(tableName = "globalID",
         indices = [Index(value = ["URL"], unique = true)])
 data class GlobalIDTable(
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "globalID") var globalId: Int,
     @ColumnInfo(name = "URL") var url: String,
     @ColumnInfo(name = "Type") var type: Type)
 {
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "globalID") var globalId: Int = 0
     companion object {
         fun populateEntity(): Array<GlobalIDTable> {
             return arrayOf(
-                GlobalIDTable(1, "3f8eb3f84ac41b514bac54b65355cc78", Type.PERSON),
-                GlobalIDTable(2, "e988ca9b80e331d3ef8a18bac07385d3", Type.TEAM),
-                GlobalIDTable(3, "f7c3b43dd99d161af82502860baed380", Type.PROJECT),
-                GlobalIDTable(4, "c071f53c780c0243dadf4e8027f68e17", Type.PROJECT)
+                GlobalIDTable("3f8eb3f84ac41b514bac54b65355cc78", Type.PERSON),
+                GlobalIDTable( "e988ca9b80e331d3ef8a18bac07385d3", Type.TEAM),
+                GlobalIDTable( "f7c3b43dd99d161af82502860baed380", Type.PROJECT),
+                GlobalIDTable( "c071f53c780c0243dadf4e8027f68e17", Type.PROJECT)
             )
         }
     }

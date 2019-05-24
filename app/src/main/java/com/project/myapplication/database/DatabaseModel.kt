@@ -8,6 +8,7 @@ import android.arch.persistence.room.TypeConverters
 import android.content.Context
 import android.os.Handler
 import android.os.HandlerThread
+import java.util.concurrent.Executors
 
 @Database(entities = [ProjectsTable::class, TagsTable::class, TeamsTable::class,
                       PeopleTable::class, GlobalIDTable::class, ProjectTagsTable::class, ProjectWorkersTable::class,
@@ -19,7 +20,12 @@ abstract class DatabaseModel : RoomDatabase() {
     companion object {
         @Volatile
         private var INSTANCE: DatabaseModel? = null
-        private var worker = DbWorkerThread("databaseWorker")
+        private val IO_EXECUTOR = Executors.newSingleThreadExecutor()
+
+        fun ioThread(f: () -> Unit)
+        {
+            IO_EXECUTOR.execute(f)
+        }
 
         fun getDatabase(context: Context): DatabaseModel {
             val tempInstance = INSTANCE
@@ -34,7 +40,7 @@ abstract class DatabaseModel : RoomDatabase() {
                 ).addCallback(object : RoomDatabase.Callback() {
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         super.onCreate(db)
-                        val task = Runnable {
+                        ioThread {
                             val dao = getDatabase(context).databaseDao()
                             dao.insertAll(*GlobalIDTable.populateEntity())
                             dao.insertAll(*LogTable.populateEntity())
@@ -47,7 +53,6 @@ abstract class DatabaseModel : RoomDatabase() {
                             dao.insertAll(*TeamMembersTable.populateEntity())
                             dao.insertAll(*TeamsTable.populateEntity())
                         }
-                        worker.postTask(task)
                     }
                 })
                     .build()

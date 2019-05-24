@@ -2,6 +2,7 @@ package com.project.myapplication.database
 
 import android.arch.persistence.room.Dao
 import android.arch.persistence.room.Insert
+import android.arch.persistence.room.OnConflictStrategy
 import android.arch.persistence.room.Query
 
 @Dao
@@ -9,24 +10,24 @@ interface DatabaseDao {
     @Query("SELECT * FROM globalID")
     fun testQuery(): Array<GlobalIDTable>
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: GlobalIDTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: LogTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: PeopleTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: PersonalHistoryTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: ProjectsTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: ProjectTagsTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: ProjectWorkersTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: TagsTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: TeamMembersTable)
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.ABORT)
     fun insertAll(vararg objects: TeamsTable)
 }
