@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
             val result = db?.databaseDao()?.testQuery()
             Log.d("tableSize ", result?.size.toString())
         }
-        //worker.postTask(task)
-        DatabaseModel.destroyInstance()
+        worker.postTask(task)
     }
 }

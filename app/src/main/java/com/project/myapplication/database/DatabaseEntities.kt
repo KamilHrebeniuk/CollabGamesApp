@@ -70,14 +70,14 @@ class Converters
     companion object {
         @TypeConverter
         @JvmStatic
-        fun fromTimestamp(value: Long): Date {
-            return Date(value)
+        fun fromTimestamp(value: Long?): Date? {
+            return Date(value!!)
         }
 
         @TypeConverter
         @JvmStatic
-        fun dateToTimestamp(date: Date): Long {
-            return date.time
+        fun dateToTimestamp(date: Date?): Long? {
+            return date?.time
         }
 
         @TypeConverter
@@ -203,7 +203,7 @@ data class ProjectsTable(
         fun populateEntity(): Array<ProjectsTable>
         {
             return arrayOf(
-                ProjectsTable(3, "Zespołowy123", Status.ACTIVE, 0, null, Date(), null,
+                ProjectsTable(2, "Zespołowy123", Status.ACTIVE, 0, null, Date(), null,
                     0, null, "Dzala", "Dziala", null),
                 ProjectsTable(3, "testuTest123", Status.ACTIVE, 0, null, Date(), null,
                     0, null, "Dzala", "Dziala", null)
@@ -217,7 +217,7 @@ data class TagsTable(
     @ColumnInfo(name = "Tag") var tag: String
 )
 {
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int = 1
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int = 0
     companion object {
         fun populateEntity(): Array<TagsTable>
         {
@@ -308,9 +308,9 @@ data class GlobalIDTable(
         fun populateEntity(): Array<GlobalIDTable> {
             return arrayOf(
                 GlobalIDTable("3f8eb3f84ac41b514bac54b65355cc78", Type.PERSON),
-                GlobalIDTable( "e988ca9b80e331d3ef8a18bac07385d3", Type.TEAM),
-                GlobalIDTable( "f7c3b43dd99d161af82502860baed380", Type.PROJECT),
-                GlobalIDTable( "c071f53c780c0243dadf4e8027f68e17", Type.PROJECT)
+                GlobalIDTable("e988ca9b80e331d3ef8a18bac07385d3", Type.TEAM),
+                GlobalIDTable("f7c3b43dd99d161af82502860baed380", Type.PROJECT),
+                GlobalIDTable("c071f53c780c0243dadf4e8027f68e17", Type.PROJECT)
             )
         }
     }
@@ -322,22 +322,24 @@ data class GlobalIDTable(
         foreignKeys = [ForeignKey(
             entity = ProjectsTable::class,
             parentColumns = ["globalID"],
-            childColumns = ["ProjectID"]),
-                       ForeignKey(
-            entity = TagsTable::class,
-            parentColumns = ["ID"],
-            childColumns = ["TagID"])])
+            childColumns = ["ProjectID"])
+//                       ForeignKey(
+//            entity = TagsTable::class,
+//            parentColumns = ["ID"],
+//            childColumns = ["TagID"])
+              ])
 data class ProjectTagsTable(
-    @PrimaryKey @ColumnInfo(name = "ProjectID") var projectId: Int,
+    @ColumnInfo(name = "ProjectID") var projectId: Int,
     @ColumnInfo(name = "TagID") var tagId: Int
 )
 {
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int = 0
     companion object {
         fun populateEntity(): Array<ProjectTagsTable>
         {
             return arrayOf(
-                ProjectTagsTable(4, 3),
-                ProjectTagsTable(4, 4)
+                ProjectTagsTable(3, 3),
+                ProjectTagsTable(3, 4)
             )
         }
     }
@@ -349,11 +351,12 @@ data class ProjectTagsTable(
         foreignKeys = [ForeignKey(
             entity = PeopleTable::class,
             parentColumns = ["globalID"],
-            childColumns = ["WorkerID"]),
-                       ForeignKey(
-            entity = ProjectsTable::class,
-            parentColumns = ["globalID"],
-            childColumns = ["ProjectID"])])
+            childColumns = ["WorkerID"])
+//                       ForeignKey(
+//            entity = ProjectsTable::class,
+//            parentColumns = ["globalID"],
+//            childColumns = ["ProjectID"])
+            ])
 data class ProjectWorkersTable(
     @PrimaryKey @ColumnInfo(name = "ProjectID") var ProjectID: Int,
     @ColumnInfo(name = "WorkerID") var workerId: Int,
@@ -364,8 +367,8 @@ data class ProjectWorkersTable(
         fun populateEntity(): Array<ProjectWorkersTable>
         {
             return arrayOf(
-                ProjectWorkersTable(3, 1, Role.OWNER),
-                ProjectWorkersTable(4, 1, Role.OWNER)
+                ProjectWorkersTable(2, 1, Role.OWNER),
+                ProjectWorkersTable(3, 1, Role.OWNER)
             )
         }
     }
@@ -377,11 +380,12 @@ data class ProjectWorkersTable(
         foreignKeys = [ForeignKey(
             entity = GlobalIDTable::class,
             parentColumns = ["globalID"],
-            childColumns = ["MemberID"]),
-                       ForeignKey(
-            entity = TeamsTable::class,
-            parentColumns = ["globalID"],
-            childColumns = ["TeamID"])])
+            childColumns = ["MemberID"])
+//                       ForeignKey(
+//            entity = TeamsTable::class,
+//            parentColumns = ["globalID"],
+//            childColumns = ["TeamID"])
+            ])
 data class TeamMembersTable(
     @PrimaryKey @ColumnInfo(name = "TeamID") var teamId: Int,
     @ColumnInfo(name = "MemberID") var memberId: Int,
@@ -402,10 +406,11 @@ data class TeamMembersTable(
 @Entity(tableName = "personalhistory",
         indices = [Index(value = ["PersonID", "VisitedID"], unique = false)])
 data class PersonalHistoryTable(
-    @PrimaryKey @ColumnInfo(name = "PersonID") var personId: Int,
+    @ColumnInfo(name = "PersonID") var personId: Int,
     @ColumnInfo(name = "VisitedID") var visitedId: Int
 )
 {
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int = 0
     companion object {
         fun populateEntity(): Array<PersonalHistoryTable>
         {
@@ -432,10 +437,10 @@ data class LogTable(
         fun populateEntity(): Array<LogTable>
         {
             return arrayOf(
+                LogTable(0, Action.CREATE, Date()),
                 LogTable(1, Action.CREATE, Date()),
                 LogTable(2, Action.CREATE, Date()),
-                LogTable(3, Action.CREATE, Date()),
-                LogTable(4, Action.CREATE, Date())
+                LogTable(3, Action.CREATE, Date())
             )
         }
     }
