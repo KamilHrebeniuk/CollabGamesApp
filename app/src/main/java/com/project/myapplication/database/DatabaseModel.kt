@@ -1,5 +1,6 @@
 package com.project.myapplication.database
 
+import android.arch.persistence.db.SupportSQLiteDatabase
 import android.arch.persistence.room.Database
 import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
@@ -18,6 +19,7 @@ abstract class DatabaseModel : RoomDatabase() {
     companion object {
         @Volatile
         private var INSTANCE: DatabaseModel? = null
+        private var worker = DbWorkerThread("databaseWorker")
 
         fun getDatabase(context: Context): DatabaseModel {
             val tempInstance = INSTANCE
@@ -29,7 +31,26 @@ abstract class DatabaseModel : RoomDatabase() {
                     context.applicationContext,
                     DatabaseModel::class.java,
                     "Database.db"
-                ).build()
+                ).addCallback(object : RoomDatabase.Callback() {
+                    override fun onCreate(db: SupportSQLiteDatabase) {
+                        super.onCreate(db)
+                        val task = Runnable {
+                            val dao = getDatabase(context).databaseDao()
+                            dao.insertAll(*GlobalIDTable.populateEntity())
+                            dao.insertAll(*LogTable.populateEntity())
+                            dao.insertAll(*PeopleTable.populateEntity())
+                            dao.insertAll(*PersonalHistoryTable.populateEntity())
+                            dao.insertAll(*ProjectsTable.populateEntity())
+                            dao.insertAll(*ProjectTagsTable.populateEntity())
+                            dao.insertAll(*ProjectWorkersTable.populateEntity())
+                            dao.insertAll(*TagsTable.populateEntity())
+                            dao.insertAll(*TeamMembersTable.populateEntity())
+                            dao.insertAll(*TeamsTable.populateEntity())
+                        }
+                        worker.postTask(task)
+                    }
+                })
+                    .build()
                 INSTANCE = instance
                 return instance
             }

@@ -10,5 +10,23 @@ interface DatabaseDao {
     fun testQuery(): Array<GlobalIDTable>
 
     @Insert
-    fun insert(global: GlobalIDTable)
+    fun insertAll(vararg objects: GlobalIDTable)
+    @Insert
+    fun insertAll(vararg objects: LogTable)
+    @Insert
+    fun insertAll(vararg objects: PeopleTable)
+    @Insert
+    fun insertAll(vararg objects: PersonalHistoryTable)
+    @Insert
+    fun insertAll(vararg objects: ProjectsTable)
+    @Insert
+    fun insertAll(vararg objects: ProjectTagsTable)
+    @Insert
+    fun insertAll(vararg objects: ProjectWorkersTable)
+    @Insert
+    fun insertAll(vararg objects: TagsTable)
+    @Insert
+    fun insertAll(vararg objects: TeamMembersTable)
+    @Insert
+    fun insertAll(vararg objects: TeamsTable)
 }
