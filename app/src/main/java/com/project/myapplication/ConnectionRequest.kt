@@ -5,7 +5,7 @@ import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.Response
 
-//This class contains all connection methods. All outputs of public methods are JSONs. First field of JSON output is always state -> "Success" or "Error"
+//This class contains all connection methods. All outputs of public methods are JSONs. First field of JSON output is state -> "Success" or "Error" for login, register and presence queries
 class ConnectionRequest(private val requestQueue: RequestQueue) {
     private val url = "http:/www.collabgames.pl/scripts/external_communicator.php"
 
@@ -50,6 +50,20 @@ class ConnectionRequest(private val requestQueue: RequestQueue) {
         connectionManager.addParam("value3", password)
         connectionManager.addParam("value4", short_desc)
         connectionManager.addParam("value5", long_desc)
+
+        requestQueue.add(connectionManager)
+
+        return myResponse
+    }
+
+    //Takes target (Project, Team, People), query (or 0 to search all), page (one page means 20 results, first page is 0) gives JSON array of {URL, globalID, name, status, start_date, end_Date, short_desc, long_desc}.
+    fun searchRequest(target: String, query: String, page: String): String{
+        makeConnection()
+
+        connectionManager.addParam("type", "search")
+        connectionManager.addParam("value1", target)
+        connectionManager.addParam("value2", query)
+        connectionManager.addParam("value3", page)
 
         requestQueue.add(connectionManager)
 

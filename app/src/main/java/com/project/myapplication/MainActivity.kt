@@ -24,6 +24,12 @@ class MainActivity : AppCompatActivity() {
         //Internet connection object initialization. Any external request will pass through this object.
         val connectionRequest = ConnectionRequest(requestQueue)
 
+        //Login example
+        //connectionRequest.loginRequest("QWERTY", "qwerty")
+
+        //Select all people (first 20 results)
+        //connectionRequest.searchRequest("People", "0", "0")
+
         worker = DbWorkerThread("worker")
         worker.start()
 
