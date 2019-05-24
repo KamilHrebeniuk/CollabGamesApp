@@ -345,7 +345,7 @@ data class ProjectTagsTable(
 
 @Entity(tableName = "projectworkers",
         indices = [Index(value = ["ProjectID", "WorkerID"], unique = true),
-                   Index(value = ["WorkerID"])],
+                   Index(value = ["WorkerID"], unique = false)],
         foreignKeys = [ForeignKey(
             entity = PeopleTable::class,
             parentColumns = ["globalID"],
@@ -400,7 +400,7 @@ data class TeamMembersTable(
 }
 
 @Entity(tableName = "personalhistory",
-        indices = [Index(value = ["PersonID", "VisitedID"])])
+        indices = [Index(value = ["PersonID", "VisitedID"], unique = false)])
 data class PersonalHistoryTable(
     @PrimaryKey @ColumnInfo(name = "PersonID") var personId: Int,
     @ColumnInfo(name = "VisitedID") var visitedId: Int
@@ -421,7 +421,7 @@ data class PersonalHistoryTable(
 }
 
 @Entity(tableName = "log",
-        indices = [Index(value = ["globalID"])])
+        indices = [Index(value = ["globalID"], unique = false)])
 data class LogTable(
     @PrimaryKey @ColumnInfo(name = "globalID") var globalId: Int,
     @ColumnInfo(name = "Action") var action: Action,
