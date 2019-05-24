@@ -5,6 +5,7 @@ import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.Response
 
+//This class contains all connection methods. All outputs of public methods are JSONs. First field of JSON output is always state -> "Success" or "Error"
 class ConnectionRequest(private val requestQueue: RequestQueue) {
     private val url = "http:/www.collabgames.pl/scripts/external_communicator.php"
 
@@ -24,6 +25,8 @@ class ConnectionRequest(private val requestQueue: RequestQueue) {
             })
     }
 
+    //Takes login, password gives JSON {state, globalID}.
+    // globalID is universal ID which could belong to user, team od project.
     fun loginRequest(login: String, password: String): String {
         makeConnection()
 
@@ -36,6 +39,8 @@ class ConnectionRequest(private val requestQueue: RequestQueue) {
         return myResponse
     }
 
+    //Takes login, email, password, short description, long description gives JSON {state}.
+    //Login doesn't happened automatically.
     fun registerRequest(login: String, email: String, password: String, short_desc: String, long_desc: String): String {
         makeConnection()
 

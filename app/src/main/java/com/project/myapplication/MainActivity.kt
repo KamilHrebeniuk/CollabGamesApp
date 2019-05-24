@@ -10,6 +10,7 @@ import com.project.myapplication.database.*
 
 class MainActivity : AppCompatActivity() {
 
+    //Internet connection request queue declaration. Each external call will be in this queue.
     private lateinit var requestQueue: RequestQueue
     private lateinit var worker: DbWorkerThread
     private var db: DatabaseModel? = null
@@ -20,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         requestQueue = Volley.newRequestQueue(this)
+        //Internet connection object initialization. Any external request will pass through this object.
         val connectionRequest = ConnectionRequest(requestQueue)
-        connectionRequest.loginRequest("MójUser2", "wiosnalatojesienzima")
 
         worker = DbWorkerThread("worker")
         worker.start()

@@ -6,6 +6,7 @@ import com.android.volley.toolbox.StringRequest
 
 import java.util.HashMap
 
+//Volley library interface
 class ConnectionManager(
     method: Int,
     url: String,
