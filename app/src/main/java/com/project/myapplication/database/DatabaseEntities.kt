@@ -179,7 +179,6 @@ class Converters
 }
 
 @Entity(tableName = "projects",
-        indices = [Index(value = ["Name"], unique = true)],
         foreignKeys = [ForeignKey(
             entity = GlobalIDTable::class,
             parentColumns = ["globalID"],
@@ -317,48 +316,48 @@ data class GlobalIDTable(
 }
 
 @Entity(tableName = "projecttags",
-        indices = [Index(value = ["ProjectID", "TagID"], unique = true),
-                   Index(value = ["TagID"], unique = false)],
+        primaryKeys = ["ProjectID", "TagID"],
         foreignKeys = [ForeignKey(
             entity = ProjectsTable::class,
             parentColumns = ["globalID"],
-            childColumns = ["ProjectID"])
-//                       ForeignKey(
-//            entity = TagsTable::class,
-//            parentColumns = ["ID"],
-//            childColumns = ["TagID"])
-              ])
+            childColumns = ["ProjectID"]),
+                       ForeignKey(
+            entity = TagsTable::class,
+            parentColumns = ["ID"],
+            childColumns = ["TagID"])
+        ])
 data class ProjectTagsTable(
     @ColumnInfo(name = "ProjectID") var projectId: Int,
     @ColumnInfo(name = "TagID") var tagId: Int
 )
 {
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "ID") var id: Int = 0
     companion object {
         fun populateEntity(): Array<ProjectTagsTable>
         {
             return arrayOf(
                 ProjectTagsTable(3, 3),
-                ProjectTagsTable(3, 4)
+                ProjectTagsTable(3, 4),
+                ProjectTagsTable(2, 4)
             )
         }
     }
 }
 
 @Entity(tableName = "projectworkers",
+        primaryKeys = ["WorkerID", "ProjectID"],
         indices = [Index(value = ["ProjectID", "WorkerID"], unique = true),
                    Index(value = ["WorkerID"], unique = false)],
         foreignKeys = [ForeignKey(
             entity = PeopleTable::class,
             parentColumns = ["globalID"],
-            childColumns = ["WorkerID"])
-//                       ForeignKey(
-//            entity = ProjectsTable::class,
-//            parentColumns = ["globalID"],
-//            childColumns = ["ProjectID"])
+            childColumns = ["WorkerID"]),
+                       ForeignKey(
+            entity = ProjectsTable::class,
+            parentColumns = ["globalID"],
+            childColumns = ["ProjectID"])
             ])
 data class ProjectWorkersTable(
-    @PrimaryKey @ColumnInfo(name = "ProjectID") var ProjectID: Int,
+    @ColumnInfo(name = "ProjectID") var ProjectID: Int,
     @ColumnInfo(name = "WorkerID") var workerId: Int,
     @ColumnInfo(name = "Role") var role: Role
 )
@@ -375,19 +374,20 @@ data class ProjectWorkersTable(
 }
 
 @Entity(tableName = "teammembers",
+        primaryKeys = ["TeamID", "MemberID"],
         indices = [Index(value = ["TeamID", "MemberID"], unique = true),
-                          Index(value = ["MemberID"])],
+                   Index(value = ["MemberID"])],
         foreignKeys = [ForeignKey(
             entity = GlobalIDTable::class,
             parentColumns = ["globalID"],
-            childColumns = ["MemberID"])
-//                       ForeignKey(
-//            entity = TeamsTable::class,
-//            parentColumns = ["globalID"],
-//            childColumns = ["TeamID"])
+            childColumns = ["MemberID"]),
+                       ForeignKey(
+            entity = TeamsTable::class,
+            parentColumns = ["globalID"],
+            childColumns = ["TeamID"])
             ])
 data class TeamMembersTable(
-    @PrimaryKey @ColumnInfo(name = "TeamID") var teamId: Int,
+    @ColumnInfo(name = "TeamID") var teamId: Int,
     @ColumnInfo(name = "MemberID") var memberId: Int,
     @ColumnInfo(name = "Type") var type: Type,
     @ColumnInfo(name = "Role") var role: Role

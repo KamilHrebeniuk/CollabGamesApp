@@ -8,6 +8,7 @@ import android.arch.persistence.room.TypeConverters
 import android.content.Context
 import android.os.Handler
 import android.os.HandlerThread
+import android.util.Log
 import java.util.concurrent.Executors
 
 @Database(entities = [ProjectsTable::class, TagsTable::class, TeamsTable::class,
@@ -41,21 +42,23 @@ abstract class DatabaseModel : RoomDatabase() {
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         super.onCreate(db)
                         ioThread {
+                            Log.d("database", "Creation started")
                             val dao = getDatabase(context).databaseDao()
                             dao.insertAll(*GlobalIDTable.populateEntity())
                             dao.insertAll(*LogTable.populateEntity())
                             dao.insertAll(*PeopleTable.populateEntity())
                             dao.insertAll(*PersonalHistoryTable.populateEntity())
                             dao.insertAll(*ProjectsTable.populateEntity())
+                            dao.insertAll(*TagsTable.populateEntity())
                             dao.insertAll(*ProjectTagsTable.populateEntity())
                             dao.insertAll(*ProjectWorkersTable.populateEntity())
-                            dao.insertAll(*TagsTable.populateEntity())
-                            dao.insertAll(*TeamMembersTable.populateEntity())
                             dao.insertAll(*TeamsTable.populateEntity())
+                            dao.insertAll(*TeamMembersTable.populateEntity())
+                            Log.d("database", "creation ended")
                         }
                     }
-                })
-                    .build()
+                }).build()
+                ioThread { getDatabase(context).databaseDao().initialQuery() }
                 INSTANCE = instance
                 return instance
             }

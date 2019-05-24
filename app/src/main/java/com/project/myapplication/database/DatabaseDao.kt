@@ -7,6 +7,9 @@ import android.arch.persistence.room.Query
 
 @Dao
 interface DatabaseDao {
+    @Query("SELECT 1")
+    fun initialQuery(): Int
+
     @Query("SELECT * FROM globalID")
     fun testQuery(): Array<GlobalIDTable>
 

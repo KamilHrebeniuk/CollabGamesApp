@@ -3,6 +3,7 @@ package com.project.myapplication
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import com.project.myapplication.database.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +19,10 @@ class MainActivity : AppCompatActivity() {
         worker.start()
 
         db = DatabaseModel.getDatabase(this)
+    }
 
+    fun click(view: View)
+    {
         val task = Runnable {
             val result = db?.databaseDao()?.testQuery()
             Log.d("tableSize ", result?.size.toString())

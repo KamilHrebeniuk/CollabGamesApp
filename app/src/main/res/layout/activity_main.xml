@@ -94,7 +94,7 @@
     <Button
             style="@style/ButtonsTheme"
             android:id="@+id/button_as_guest"
-            android:enabled="false"
+            android:enabled="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -103,6 +103,7 @@
             android:layout_marginEnd="48dp"
             android:text="@string/action_visit_as_guest"
             android:background="@color/colorLogoBlue"
+            android:onClick="click"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
