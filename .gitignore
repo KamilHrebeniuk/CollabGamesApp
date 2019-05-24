@@ -24,3 +24,9 @@ hs_err_pid*
 
 # SDK Location
 local.properties
+
+# Intellij IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
