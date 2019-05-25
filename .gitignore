@@ -30,3 +30,9 @@ local.properties
 .idea/tasks.xml
 .idea/datasources.xml
 .idea/dataSources.ids
+*.iml
+.gradle
+build/
+.navigation
+captures/
+output.json
