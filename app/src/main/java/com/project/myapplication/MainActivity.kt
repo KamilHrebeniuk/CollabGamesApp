@@ -113,26 +113,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    /*   fun visitAsGuest(view: View) {
-           Log.v("Activity123", "Start main menu")
-           /*    val task = Runnable {
-                   val result = db?.databaseDao()?.testQuery()
-                   Log.d("tableSize ", result?.size.toString())
-               }
-               worker.postTask(task)*/
-
-           //Start Activity with Search
-           val intent = Intent(this, ProjectsListActivity::class.java)
-
-           val connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
-               override fun handlePostRequest(response: String) {
-                   intent.putExtra("projects", response)
-                   startActivity(intent)
-               }
-           })
-           connectionRequest.searchRequest("People", "0", "0")
-       }*/
-
     override fun onStop() {
         super.onStop()
         requestQueue.cancelAll(TAG)

@@ -5,7 +5,6 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import com.android.volley.RequestQueue
@@ -59,13 +58,12 @@ class MenuActivity : AppCompatActivity() {
     }
 
     fun logOut(view: View) {
-        Log.d("AAA", "Dziala")
         val preferencesEditor = preferences!!.edit()
         preferencesEditor.putInt(USERID, 0)
         preferencesEditor.apply()
         Toast.makeText(this@MenuActivity, "Logged Out", Toast.LENGTH_LONG).show()
 
-        
+
         this.finishAffinity()
     }
 }
