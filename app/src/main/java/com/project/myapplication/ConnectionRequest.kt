@@ -37,7 +37,7 @@ class ConnectionRequest(
     //Takes login, password gives JSON {state, globalID}.
     // globalID is universal ID which could belong to user, team od project.
     fun loginRequest(login: String, password: String) {
-//        makeConnection()
+        makeConnection()
 
         connectionManager.addParam("type", "login")
         connectionManager.addParam("value1", login)

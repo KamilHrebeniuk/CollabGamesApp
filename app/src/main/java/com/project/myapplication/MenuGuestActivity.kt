@@ -21,7 +21,7 @@ class MenuGuestActivity : AppCompatActivity() {
         requestQueue = Volley.newRequestQueue(this)
     }
 
-    fun prepareList() {
+    private fun prepareList() {
         val intent = Intent(this, ProjectsListActivity::class.java)
         connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
             override fun handlePostRequest(response: String) {

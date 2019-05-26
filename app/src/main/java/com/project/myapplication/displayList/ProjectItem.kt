@@ -11,3 +11,8 @@ data class ProjectItem(var URL: String,
                        var short_desc: String,
                        var long_desc: String
 ) : Serializable
+
+data class LoginItem(
+    var state: String,
+    var globalID: String
+) : Serializable

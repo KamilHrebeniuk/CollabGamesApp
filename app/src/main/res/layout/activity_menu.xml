@@ -36,14 +36,13 @@
         <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-
                 app:srcCompat="@drawable/calendar"
                 android:id="@+id/menu_attendance_button"
                 android:layout_weight="1"
                 android:layout_marginEnd="12dp"
                 android:minHeight="100dp"
                 style="@style/OrangeButtonStyle"
-        />
+                android:onClick="runAttendance"/>
         <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -53,8 +52,7 @@
                 android:layout_marginStart="12dp"
                 android:minHeight="100dp"
                 style="@style/OrangeButtonStyle"
-
-        />
+                android:onClick="runPeople"/>
     </LinearLayout>
     <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
                   android:id="@+id/menu_2_linear_layout"
@@ -83,8 +81,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginEnd="24dp"
                 android:layout_weight="1"
-                android:textAlignment="center"
-        />
+                android:textAlignment="center"/>
     </LinearLayout>
     <ImageButton
             android:layout_width="0dp"
@@ -127,7 +124,7 @@
                 android:layout_marginEnd="12dp"
                 android:minHeight="100dp"
                 style="@style/OrangeButtonStyle"
-        />
+                android:onClick="runTeam"/>
         <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -137,7 +134,7 @@
                 android:layout_marginStart="12dp"
                 android:minHeight="100dp"
                 style="@style/OrangeButtonStyle"
-        />
+                android:onClick="runProject"/>
     </LinearLayout>
     <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
                   android:id="@+id/menu_4_linear_layout"
@@ -165,7 +162,6 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginEnd="24dp"
                 android:layout_weight="1"
-                android:textAlignment="center"
-        />
+                android:textAlignment="center"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

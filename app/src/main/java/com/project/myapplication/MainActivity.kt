@@ -4,10 +4,15 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import android.widget.EditText
+import android.widget.Toast
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.project.myapplication.database.DatabaseModel
 import com.project.myapplication.database.DbWorkerThread
+import com.project.myapplication.displayList.LoginItem
 
 
 class MainActivity : AppCompatActivity() {
@@ -38,9 +43,27 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     fun visitAsUser(view: View) {
-        val intent = Intent(this, MenuActivity::class.java)
-        startActivity(intent)
+        var intent = Intent(this, MenuActivity::class.java)
+        val connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
+            override fun handlePostRequest(response: String) {
+                val token = object : TypeToken<LoginItem>() {}
+                val login = Gson().fromJson<LoginItem>(response, token.type)
+                if (login.state == "Success") {
+                    if (login.globalID.toInt() > 0) {
+                        intent.putExtra("globalID", login.globalID.toInt())
+                        startActivity(intent)
+                    }
+                } else {
+                    Toast.makeText(this@MainActivity, "Login or password is incorrect", Toast.LENGTH_LONG).show()
+                }
+            }
+        })
+        connectionRequest.loginRequest(
+            findViewById<EditText>(R.id.username).text.toString(),
+            findViewById<EditText>(R.id.password).text.toString()
+        )
     }
 
     fun goToRegister(view: View) {
