@@ -21,3 +21,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# SDK Location
+local.properties
+
+# Intellij IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+*.iml
+.gradle
+build/
+.navigation
+captures/
+output.json

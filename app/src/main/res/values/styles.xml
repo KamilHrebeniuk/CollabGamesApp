@@ -13,10 +13,30 @@
 
 
     </style>
-    
+
+    <!-- Buttons styles -->
+
     <style name="ButtonsTheme" parent="Widget.AppCompat.Button">
         <item name="android:textColor">@color/colorBackground</item>
     </style>
+
+    <style name="OrangeButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:background">@color/colorLogoOrange</item>
+        <item name="android:shape">rectangle</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:background">@color/colorLogoRed</item>
+    </style>
+
+    <style name="BlueButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:background">@color/colorLogoBlue</item>
+    </style>
+
+
 
     <style name="ImageIconsTheme" parent="Theme.AppCompat">
         <item name="android:alpha">0.6</item>
