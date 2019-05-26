@@ -1,15 +1,14 @@
 package com.project.myapplication
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
-import com.google.gson.Gson
-import com.project.myapplication.database.*
-import com.project.myapplication.displayList.ProjectActivity
+import com.project.myapplication.database.DatabaseModel
+import com.project.myapplication.database.DbWorkerThread
 import com.project.myapplication.displayList.ProjectsListActivity
 
 class MainActivity : AppCompatActivity() {
@@ -26,34 +25,38 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         requestQueue = Volley.newRequestQueue(this)
         //Internet connection object initialization. Any external request will pass through this object.
-        val connectionRequest = ConnectionRequest(requestQueue)
 
         //Login example
         //connectionRequest.loginRequest("QWERTY", "qwerty")
 
         //Select all people (first 20 results)
-        //connectionRequest.searchRequest("People", "0", "0")
+//        connectionRequest.searchRequest("People", "0", "0")
 
-        worker = DbWorkerThread("worker")
-        worker.start()
-
-        db = DatabaseModel.getDatabase(this)
+//        worker = DbWorkerThread("worker")
+//        worker.start()
+//
+//        db = DatabaseModel.getDatabase(this)
     }
 
-    fun click(view: View)
-    {
+    fun click(view: View) {
         val task = Runnable {
             val result = db?.databaseDao()?.testQuery()
             Log.d("tableSize ", result?.size.toString())
         }
-        worker.postTask(task)
+//        worker.postTask(task)
 
         //test
         val intent = Intent(this, ProjectsListActivity::class.java)
-        val json =  ConnectionRequest(requestQueue).searchRequest("People", "0", "0")
 
-        intent.putExtra("projects", json)
-        this.startActivity(intent)
+        val connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
+            override fun handlePostRequest(response: String) {
+                intent.putExtra("projects", response)
+                startActivity(intent)
+            }
+        })
+        connectionRequest.searchRequest("People", "0", "0")
+
+
     }
 
     override fun onStop() {
