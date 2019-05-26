@@ -3,6 +3,7 @@ package com.project.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.view.View
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
@@ -49,5 +50,9 @@ class MenuActivity : AppCompatActivity() {
     fun runProject(view: View) {
         prepareList()
         connectionRequest.searchRequest("Project", "0", "0")
+    }
+
+    fun logOut(view: View) {
+        Log.d("AAA", "Dziala")
     }
 }

@@ -22,8 +22,7 @@
             app:layout_constraintTop_toBottomOf="@+id/menu_4_linear_layout"
             android:minHeight="100dp"
             style="@style/RedButtonStyle"
-
-    />
+            android:onClick="logOut"/>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"

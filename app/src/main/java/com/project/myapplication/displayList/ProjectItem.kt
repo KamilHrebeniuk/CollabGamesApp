@@ -16,3 +16,7 @@ data class LoginItem(
     var state: String,
     var globalID: String
 ) : Serializable
+
+data class RegisterItem(
+    var state: String
+) : Serializable
