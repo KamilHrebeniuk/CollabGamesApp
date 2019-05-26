@@ -6,153 +6,128 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d43090-21f6-4a8e-acef-09684b38ff4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/myapplication/RegistrationActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/collablogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/001-information.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/002-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/003-tick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/004-cancel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/005-plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/006-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/007-return.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/008-time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/009-power-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/010-loop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/011-reload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/012-chevron-arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/013-right-chevron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/014-reply.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/015-scissors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/016-pin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/017-share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/018-link-symbol-of-two-chains-links-linked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/019-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/020-bell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/021-see.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/022-hourglass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/023-tags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/024-pin-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/025-document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/026-document-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/027-book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/028-guest-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/029-report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/030-calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/031-filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/032-key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/033-pencil-edit-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/034-settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/035-rubbish-bin-delete-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/036-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/037-home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/038-unlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/039-lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/040-find.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/041-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/042-envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/043-project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/044-code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/045-portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/046-identity-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/047-meeting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/048-network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/049-group-of-people-in-a-formation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/050-users.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/icons/051-user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+    <list default="true" id="4f9789c1-989d-4ec9-a0ec-dcdc72371242" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bin_delete_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chevron_arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/document1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/find.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/group_of_people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/guest_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hourglass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/identity_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/meeting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pencil_edit_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pin1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/power_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/return_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/right_chevron.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/scissors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/see.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/two_chains_linked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/unlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/users.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/001-information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/002-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/003-tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/004-cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/005-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/006-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/007-return.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/008-time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/009-power-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/010-loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/011-reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/012-chevron-arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/013-right-chevron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/014-reply.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/015-scissors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/016-pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/017-share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/018-link-symbol-of-two-chains-links-linked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/019-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/020-bell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/021-see.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/022-hourglass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/023-tags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/024-pin-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/025-document.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/026-document-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/027-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/028-guest-list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/029-report.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/030-calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/031-filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/032-key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/033-pencil-edit-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/034-settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/035-rubbish-bin-delete-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/036-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/037-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/038-unlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/039-lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/040-find.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/041-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/042-envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/043-project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/044-code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/045-portfolio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/046-identity-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/047-meeting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/048-network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/049-group-of-people-in-a-formation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/050-users.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/icons/051-user.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile_aplications_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_aplications_project.iml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/" />
-    <ignored path="$PROJECT_DIR$/app/build/generated/source/r/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/apk_list/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/blame/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/check_manifest_result/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/compatible_screen_manifest/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/dex/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/duplicate_classes_check/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/instant_run_merged_manifests/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/javac/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/lint_jar/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/merged_assets/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/merged_jni_libs/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/merged_manifests/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/merged_shaders/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/prebuild/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/processed_res/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/res/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/shader_assets/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/signing_config/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/symbols/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/transforms/" />
-    <ignored path="$PROJECT_DIR$/app/build/intermediates/validate_signing_config/" />
-    <ignored path="$PROJECT_DIR$/app/build/kotlin/" />
-    <ignored path="$PROJECT_DIR$/app/build/outputs/" />
-    <ignored path="$PROJECT_DIR$/app/build/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,17 +142,7 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mobile_aplications_project" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
@@ -186,54 +151,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="101" column="40" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="e#421#454#0" expanded="true" />
-                <element signature="e#483#518#0" expanded="true" />
-                <element signature="e#548#583#0" expanded="true" />
-                <element signature="e#611#644#0" expanded="true" />
-                <element signature="e#1478#1500#0" expanded="true" />
-                <element signature="e#2117#2142#0" expanded="true" />
-                <element signature="e#2178#2208#0" expanded="true" />
-                <element signature="e#3151#3181#0" expanded="true" />
-                <element signature="e#3720#3745#0" expanded="true" />
-                <element signature="e#4498#4529#0" expanded="true" />
+                <element signature="e#1036#1057#0" expanded="true" />
+                <element signature="e#1444#1466#0" expanded="true" />
+                <element signature="e#2350#2375#0" expanded="true" />
+                <element signature="e#2411#2441#0" expanded="true" />
+                <element signature="e#4262#4296#0" expanded="true" />
+                <element signature="e#4340#4370#0" expanded="true" />
+                <element signature="e#3452#3486#0" expanded="true" />
+                <element signature="e#3530#3560#0" expanded="true" />
+                <element signature="e#6438#6463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -247,11 +202,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-v26/activity_registration.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" />
       </list>
     </option>
   </component>
@@ -266,9 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -279,30 +231,56 @@
             <path>
               <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="myapplication" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
+            <path>
+              <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="activity_registration" type="c431d0b8:AndroidResGroupNode" />
+            </path>
+            <path>
+              <item name="mobile_aplications_project" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="device.picker.selection" value="9DC7N18309005946" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="com.project.myapplication" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -317,6 +295,39 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -324,7 +335,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -377,171 +388,138 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25d43090-21f6-4a8e-acef-09684b38ff4e" name="Default Changelist" comment="" />
-      <created>1558461473863</created>
+      <changelist id="4f9789c1-989d-4ec9-a0ec-dcdc72371242" name="Default Changelist" comment="" />
+      <created>1558798032217</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558461473863</updated>
+      <updated>1558798032217</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.23911323" />
+      <window_info content_ui="combo" id="Project" sideWeight="0.54606366" visible="true" weight="0.32858273" />
       <window_info id="Structure" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="Resources Explorer" />
+      <window_info x="341" y="203" width="160" height="348" id="Component Tree" sideWeight="0.45393634" side_tool="true" weight="0.32858273" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" weight="0.32868218" />
       <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32868218" />
-      <window_info anchor="bottom" id="Build" weight="0.32868218" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.33178294" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" weight="0.3293745" />
+      <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Preview" weight="0.3087886" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" visible="true" weight="0.32858273" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Capture Tool" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23911323" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Build Variants" order="5" side_tool="true" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32868218" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.32868218" />
-      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.3087886" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/project/myapplication/RegistrationActivity.kt</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcc0bdc037b43397173f1346c6ab28f6/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/project/myapplication/RegistrationActivity.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding>
-            <element signature="e#704#726#0" expanded="true" />
-            <element signature="e#1289#1314#0" expanded="true" />
-            <element signature="e#1350#1380#0" expanded="true" />
-            <element signature="e#2123#2147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/identity_card.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/project/myapplication/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="60">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/project/myapplication/RegistrationActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        <state relative-caret-position="60">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-v26/activity_registration.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="101" column="40" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="e#421#454#0" expanded="true" />
-            <element signature="e#483#518#0" expanded="true" />
-            <element signature="e#548#583#0" expanded="true" />
-            <element signature="e#611#644#0" expanded="true" />
-            <element signature="e#1478#1500#0" expanded="true" />
-            <element signature="e#2117#2142#0" expanded="true" />
-            <element signature="e#2178#2208#0" expanded="true" />
-            <element signature="e#3151#3181#0" expanded="true" />
-            <element signature="e#3720#3745#0" expanded="true" />
-            <element signature="e#4498#4529#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bin_delete_button.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#1036#1057#0" expanded="true" />
+            <element signature="e#1444#1466#0" expanded="true" />
+            <element signature="e#2350#2375#0" expanded="true" />
+            <element signature="e#2411#2441#0" expanded="true" />
+            <element signature="e#4262#4296#0" expanded="true" />
+            <element signature="e#4340#4370#0" expanded="true" />
+            <element signature="e#3452#3486#0" expanded="true" />
+            <element signature="e#3530#3560#0" expanded="true" />
+            <element signature="e#6438#6463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

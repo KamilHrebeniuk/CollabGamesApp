@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26bd8afb-b5e7-43bf-abf3-3e39e6f6c9fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/001-information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/002-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/003-tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/004-cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/005-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/006-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/007-return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/008-time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/009-power-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/010-loop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/011-reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/012-chevron-arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/013-right-chevron.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/014-reply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/015-scissors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/016-pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/017-share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/018-link-symbol-of-two-chains-links-linked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/019-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/020-bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/021-see.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/022-hourglass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/023-tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/024-pin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/025-document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/026-document-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/027-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/028-guest-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/029-report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/030-calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/031-filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/032-key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/033-pencil-edit-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/034-settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/035-rubbish-bin-delete-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/036-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/037-home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/038-unlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/039-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/040-find.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/041-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/042-envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/043-project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/044-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/045-portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/046-identity-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/047-meeting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/048-network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/049-group-of-people-in-a-formation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/050-users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/001-information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/002-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/003-tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/004-cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/005-plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/006-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/007-return.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/008-time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/009-power-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/010-loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/011-reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/012-chevron-arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/013-right-chevron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/014-reply.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/015-scissors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/016-pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/017-share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/018-link-symbol-of-two-chains-links-linked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/019-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/020-bell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/021-see.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/022-hourglass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/023-tags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/024-pin-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/025-document.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/026-document-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/027-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/028-guest-list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/029-report.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/030-calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/031-filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/032-key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/033-pencil-edit-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/034-settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/035-rubbish-bin-delete-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/036-login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/037-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/038-unlock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/039-lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/040-find.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/041-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/042-envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/043-project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/044-code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/045-portfolio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/046-identity-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/047-meeting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/048-network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/049-group-of-people-in-a-formation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/050-users.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/icons/051-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_registration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="-4" />
+    <option name="width" value="1309" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26bd8afb-b5e7-43bf-abf3-3e39e6f6c9fe" name="Default Changelist" comment="" />
+      <created>1558795425220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558795425220</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3293745" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32868218" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>

@@ -18,17 +18,19 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginHorizontal="24dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
-    />
+            app:layout_constraintEnd_toStartOf="@+id/registrationNick" android:layout_marginEnd="24dp"/>
     <EditText
             android:id="@+id/registrationNick"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:hint="@string/prompt_name"
             android:inputType="textPersonName|textCapWords"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="56dp"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_margin="24dp"
-            app:layout_constraintStart_toEndOf="@+id/registrationNickImg" android:layout_marginStart="8dp"/>
+            app:layout_constraintStart_toEndOf="@+id/registrationNickImg"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="12dp" android:layout_marginTop="56dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginVertical="24dp"
+            android:importantForAutofill="no"/>
     <ImageView
             android:id="@+id/registrationEmailImg"
             android:src="@drawable/envelope"
@@ -41,19 +43,15 @@
             android:layout_marginStart="24dp"/>
     <EditText
             android:id="@+id/registrationEmail"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="264dp"
+            android:layout_height="46dp"
             android:hint="@string/prompt_email"
             android:inputType="textEmailAddress"
             android:selectAllOnFocus="true"
             app:layout_constraintStart_toEndOf="@+id/registrationEmailImg"
-            app:layout_constraintTop_toBottomOf="@+id/registrationNick"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_margin="24dp"
-            app:layout_constraintLeft_toRightOf="@id/registrationEmailImg"
-            android:importantForAutofill="no"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="1.0"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/registrationNick"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            android:importantForAutofill="no"/>
     <ImageView
             android:src="@drawable/key"
             android:id="@+id/registrationPasswordImg"
@@ -61,13 +59,13 @@
             android:layout_height="48dp"
             style="@style/ImageIconsTheme"
             app:layout_constraintDimensionRatio="h,1:1"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/registrationEmailImg"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
     <EditText
             android:id="@+id/registrationPassword"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="301dp"
+            android:layout_height="42dp"
             android:hint="@string/prompt_password"
             android:imeActionLabel="@string/action_sign_in_short"
             android:imeOptions="actionDone"
@@ -75,37 +73,30 @@
             android:selectAllOnFocus="true"
             app:layout_constraintStart_toEndOf="@+id/registrationPasswordImg"
 
-            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/registrationEmail"
-            android:layout_marginStart="24dp"
-            android:layout_margin="24dp"
-            app:layout_constraintLeft_toRightOf="@id/registrationPasswordImg" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/registrationEmail"
+            android:layout_marginStart="28dp" android:importantForAutofill="no"/>
     <ImageView
             android:id="@+id/registrationPasswordRepImg"
             android:src="@drawable/key"
             android:layout_width="48dp"
             android:layout_height="48dp"
             style="@style/ImageIconsTheme" android:layout_span="1"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/registrationPasswordImg"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
-            android:contentDescription="RepKeyImg"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"/>
     <EditText
             android:id="@+id/registrationPasswordRep"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="285dp"
+            android:layout_height="48dp"
             android:hint="@string/prompt_repeated_password"
             android:imeActionLabel="@string/action_sign_in_short"
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
             app:layout_constraintStart_toEndOf="@+id/registrationPasswordRepImg"
-            app:layout_constraintLeft_toRightOf="@id/registrationPasswordRepImg"
-            android:layout_marginTop="32dp"
-            app:layout_constraintTop_toBottomOf="@+id/registrationPassword"
-            android:layout_marginStart="24dp"
-            app:layout_constraintHorizontal_bias="1.0"
-            android:layout_margin="24dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/registrationPassword"
+            android:layout_marginStart="24dp"/>
     <ImageView
             android:id="@+id/registrationShortDescriptionImg"
             android:layout_width="48dp"
@@ -113,29 +104,23 @@
             style="@style/ImageIconsTheme"
             app:srcCompat="@drawable/information"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="24dp" android:layout_marginTop="12dp"
-            app:layout_constraintTop_toBottomOf="@+id/registrationPasswordRepImg"
-            android:contentDescription="DescImg"/>
+            android:layout_marginStart="24dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/registrationPasswordRepImg"/>
     <EditText
             android:id="@+id/registrationShortDescription"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="286dp"
+            android:layout_height="50dp"
             android:hint="@string/prompt_short_description"
             android:imeActionLabel="@string/action_sign_in_short"
             android:imeOptions="actionDone"
             android:inputType="textImeMultiLine"
-            android:singleLine="false"
-            android:maxLines="4"
-            android:lines="4"
+            android:lines="5"
             android:selectAllOnFocus="true"
             android:gravity="top"
-            app:layout_constraintLeft_toRightOf="@id/registrationShortDescriptionImg"
+
             app:layout_constraintStart_toEndOf="@+id/registrationShortDescriptionImg"
             android:layout_marginTop="24dp"
-            app:layout_constraintHorizontal_bias="1.0"
-            android:layout_margin="24dp"
-            app:layout_constraintTop_toBottomOf="@+id/registrationPasswordRep" android:layout_marginStart="24dp"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/registrationPasswordRep" android:layout_marginStart="24dp"/>
     <Button
             style="@style/ButtonsTheme"
             android:id="@+id/button_register"
@@ -149,8 +134,6 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
             android:layout_marginTop="287dp" app:layout_constraintTop_toBottomOf="@+id/registrationShortDescription"/>
-    <android.support.constraint.Group android:layout_width="wrap_content" android:layout_height="wrap_content"
-                                      android:id="@+id/group"/>
 
 
 </android.support.constraint.ConstraintLayout>

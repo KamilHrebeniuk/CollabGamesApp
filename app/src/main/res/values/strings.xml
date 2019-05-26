@@ -12,5 +12,13 @@
     <string name="login_failed">"Login failed"</string>
     <string name="action_register">Register</string>
     <string name="action_visit_as_guest">Visit as a guest</string>
+    
+    <!-- Strings related to registration activity -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_repeated_password">Repeat password</string>
+    <string name="prompt_short_description">Short description</string>
+    <string name="prompt_long_description">Tell something more</string>
+
+
 </resources>
 
