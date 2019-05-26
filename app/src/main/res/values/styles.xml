@@ -9,9 +9,6 @@
         <item name="editTextColor">@color/colorText</item>
         <item name="actionButtonStyle">@color/colorAccent</item>
         <item name="android:windowBackground">@color/colorBackground</item>
-        <item name="android:navigationBarColor">@color/colorMenuBackground</item>
-
-
     </style>
 
     <!-- Buttons styles -->
