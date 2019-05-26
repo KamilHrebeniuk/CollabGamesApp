@@ -1,10 +1,8 @@
 package com.project.myapplication
 
-import android.util.Log
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
-
-import java.util.HashMap
+import java.util.*
 
 //Volley library interface
 class ConnectionManager(

@@ -1,6 +1,5 @@
 package com.project.myapplication
 
-import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
@@ -24,7 +23,6 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     fun register(view: View) {
-        val intent = Intent(this, MenuActivity::class.java)
         val connectionRequest =
             ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
                 override fun handlePostRequest(response: String) {
