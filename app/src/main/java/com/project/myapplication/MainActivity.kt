@@ -1,12 +1,16 @@
 package com.project.myapplication
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
+import com.google.gson.Gson
 import com.project.myapplication.database.*
+import com.project.myapplication.displayList.ProjectActivity
+import com.project.myapplication.displayList.ProjectsListActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -43,6 +47,13 @@ class MainActivity : AppCompatActivity() {
             Log.d("tableSize ", result?.size.toString())
         }
         worker.postTask(task)
+
+        //test
+        val intent = Intent(this, ProjectsListActivity::class.java)
+        val json =  ConnectionRequest(requestQueue).searchRequest("People", "0", "0")
+
+        intent.putExtra("projects", json)
+        this.startActivity(intent)
     }
 
     override fun onStop() {

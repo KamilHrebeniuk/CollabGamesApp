@@ -25,6 +25,10 @@
         </activity>
         <activity android:name=".RegistrationActivity">
         </activity>
+        <activity android:name=".displayList.ProjectActivity">
+        </activity>
+        <activity android:name=".displayList.ProjectsListActivity">
+        </activity>
     </application>
 
 </manifest>
