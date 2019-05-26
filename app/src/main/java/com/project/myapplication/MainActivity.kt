@@ -56,6 +56,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         requestQueue = Volley.newRequestQueue(this)
         preferences = getSharedPreferences(PREFERENCESNAME, Activity.MODE_PRIVATE)
+
+        if (globalID > 0) {
+            Toast.makeText(this@MainActivity, "Session remembered", Toast.LENGTH_LONG).show()
+        }
+
         //Internet connection object initialization. Any external request will pass through this object.
 
         //Login example
