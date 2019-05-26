@@ -73,7 +73,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="1"
                 android:text="@string/action_sign_in_short"
-                android:onClick="login"
+                android:onClick="visitAsUser"
         />
         <Button
                 style="@style/OrangeButtonStyle"

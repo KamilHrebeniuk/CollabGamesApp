@@ -3,13 +3,11 @@ package com.project.myapplication
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.view.View
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.Volley
 import com.project.myapplication.database.DatabaseModel
 import com.project.myapplication.database.DbWorkerThread
-import com.project.myapplication.displayList.ProjectsListActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -40,37 +38,40 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun login(view: View) {
-
+    fun visitAsUser(view: View) {
+        val intent = Intent(this, MenuActivity::class.java)
+        startActivity(intent)
     }
 
     fun goToRegister(view: View) {
-        Log.v("Activity123", "Start register")
         val intent = Intent(this, RegisterActivity::class.java)
         startActivity(intent)
     }
 
     fun visitAsGuest(view: View) {
-        Log.v("Activity123", "Start main menu")
-        /*    val task = Runnable {
-                val result = db?.databaseDao()?.testQuery()
-                Log.d("tableSize ", result?.size.toString())
-            }
-            worker.postTask(task)*/
-
-        //Start Activity with Search
-        val intent = Intent(this, ProjectsListActivity::class.java)
-
-        val connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
-            override fun handlePostRequest(response: String) {
-                intent.putExtra("projects", response)
-                startActivity(intent)
-            }
-        })
-        connectionRequest.searchRequest("People", "0", "0")
-
-
+        val intent = Intent(this, MenuGuestActivity::class.java)
+        startActivity(intent)
     }
+
+    /*   fun visitAsGuest(view: View) {
+           Log.v("Activity123", "Start main menu")
+           /*    val task = Runnable {
+                   val result = db?.databaseDao()?.testQuery()
+                   Log.d("tableSize ", result?.size.toString())
+               }
+               worker.postTask(task)*/
+
+           //Start Activity with Search
+           val intent = Intent(this, ProjectsListActivity::class.java)
+
+           val connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {
+               override fun handlePostRequest(response: String) {
+                   intent.putExtra("projects", response)
+                   startActivity(intent)
+               }
+           })
+           connectionRequest.searchRequest("People", "0", "0")
+       }*/
 
     override fun onStop() {
         super.onStop()

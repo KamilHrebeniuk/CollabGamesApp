@@ -78,12 +78,14 @@
             android:layout_height="wrap_content"
             app:layout_constraintHeight_default="spread"
             app:srcCompat="@drawable/users"
-            android:id="@+id/menu_guest_users_ImgButton" android:layout_marginTop="48dp"
-            app:layout_constraintTop_toBottomOf="@id/menu_guest_linear_layout" app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/menu_guest_users_ImgButton" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/menu_guest_linear_layout"
+            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="24dp"
             app:layout_constraintVertical_weight="3"
             android:minHeight="100dp"
+            android:onClick="runPeople"
             style="@style/OrangeButtonStyle"
 
 
@@ -104,16 +106,15 @@
             app:layout_constraintHeight_default="spread"
             app:srcCompat="@drawable/group_of_people"
             android:id="@+id/menu_guest_teams_ImgButton"
-            android:layout_marginTop="48dp"
-            app:layout_constraintTop_toBottomOf="@id/menu_guest_users_buttonTitle" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@id/menu_guest_users_buttonTitle"
+            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="24dp"
             app:layout_constraintVertical_weight="3"
             android:minHeight="100dp"
-            style="@style/OrangeButtonStyle"
-
-
-    />
+            android:onClick="runTeam"
+            style="@style/OrangeButtonStyle"/>
     <TextView
             android:text="@string/menu_teams"
             android:layout_width="0dp"
@@ -129,25 +130,24 @@
             android:layout_height="wrap_content"
             app:layout_constraintHeight_default="spread"
             app:srcCompat="@drawable/project"
-            android:id="@+id/menu_guest_projects_ImgButton" android:layout_marginTop="48dp"
-            app:layout_constraintTop_toBottomOf="@id/menu_guest_teams_buttonTitle" app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/menu_guest_projects_ImgButton" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@id/menu_guest_teams_buttonTitle"
+            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="24dp"
             app:layout_constraintVertical_weight="3"
             android:minHeight="100dp"
             style="@style/OrangeButtonStyle"
-
-
-    />
+            android:onClick="runProject"/>
     <TextView
             android:text="@string/menu_projects"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:id="@+id/menu_guest_projects_buttonTitle"
             app:layout_constraintTop_toBottomOf="@+id/menu_guest_projects_ImgButton" android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
             android:textAlignment="center"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+    />
 
 </android.support.constraint.ConstraintLayout>
