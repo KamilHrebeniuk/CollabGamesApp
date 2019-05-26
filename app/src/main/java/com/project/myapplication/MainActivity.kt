@@ -11,14 +11,15 @@ import com.project.myapplication.database.DatabaseModel
 import com.project.myapplication.database.DbWorkerThread
 import com.project.myapplication.displayList.ProjectsListActivity
 
+
 class MainActivity : AppCompatActivity() {
 
     //Internet connection request queue declaration. Each external call will be in this queue.
     private lateinit var requestQueue: RequestQueue
     private lateinit var worker: DbWorkerThread
     private var db: DatabaseModel? = null
+    private var TAG = MainActivity::class.java.simpleName
 
-    private val TAG = "QueryTag"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,16 +37,28 @@ class MainActivity : AppCompatActivity() {
 //        worker.start()
 //
 //        db = DatabaseModel.getDatabase(this)
+
     }
 
-    fun click(view: View) {
-        val task = Runnable {
-            val result = db?.databaseDao()?.testQuery()
-            Log.d("tableSize ", result?.size.toString())
-        }
-//        worker.postTask(task)
+    fun login(view: View) {
 
-        //test
+    }
+
+    fun goToRegister(view: View) {
+        Log.v("Activity123", "Start register")
+        val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun visitAsGuest(view: View) {
+        Log.v("Activity123", "Start main menu")
+        /*    val task = Runnable {
+                val result = db?.databaseDao()?.testQuery()
+                Log.d("tableSize ", result?.size.toString())
+            }
+            worker.postTask(task)*/
+
+        //Start Activity with Search
         val intent = Intent(this, ProjectsListActivity::class.java)
 
         val connectionRequest = ConnectionRequest(requestQueue, object : ConnectionRequest.ConnectionRequestListener {

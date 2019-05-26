@@ -66,7 +66,6 @@
         <Button
                 style="@style/RedButtonStyle"
                 android:id="@+id/button_login"
-                android:enabled="false"
                 android:layout_width="50pt"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -74,11 +73,11 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="1"
                 android:text="@string/action_sign_in_short"
+                android:onClick="login"
         />
         <Button
                 style="@style/OrangeButtonStyle"
                 android:id="@+id/button_register"
-                android:enabled="false"
                 android:layout_width="50pt"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -87,7 +86,7 @@
                 android:layout_marginEnd="48dp"
                 android:layout_weight="1"
                 android:text="@string/action_register"
-
+                android:onClick="goToRegister"
         />
     </LinearLayout>
     <Button
@@ -101,7 +100,7 @@
             android:layout_marginStart="48dp"
             android:layout_marginEnd="48dp"
             android:text="@string/action_visit_as_guest"
-            android:onClick="click"
+            android:onClick="visitAsGuest"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
