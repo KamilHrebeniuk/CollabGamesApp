@@ -26,7 +26,7 @@ class ProjectActivity : AppCompatActivity() {
         view.findViewById<TextView>(R.id.name).text = project.name
         view.findViewById<TextView>(R.id.description).text = project.short_desc
         view.findViewById<TextView>(R.id.description_full).text = project.long_desc
-        view.findViewById<TextView>(R.id.status).text = project.status
-        view.findViewById<TextView>(R.id.start).text = project.start_date
+        view.findViewById<TextView>(R.id.status).text = "Status: "+project.status
+        view.findViewById<TextView>(R.id.start).text = "Start date: " + project.start_date
     }
 }
