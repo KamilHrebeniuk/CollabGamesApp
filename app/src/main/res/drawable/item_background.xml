@@ -8,5 +8,5 @@
             android:bottomLeftRadius="0dp" />
     <stroke
             android:width="4dp"
-            android:color="#9da7b7" />
+            android:color="@color/colorMenuBackground" />
 </shape>
