@@ -16,11 +16,10 @@
             android:layout_height="wrap_content" app:srcCompat="@drawable/lock"
             android:id="@+id/menu_logout_ImgButton" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="24dp" android:layout_marginBottom="48dp"
+            android:layout_marginEnd="24dp" android:layout_marginBottom="32dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_weight="3" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/menu_4_linear_layout"
-            android:minHeight="100dp"
+            app:layout_constraintVertical_weight="3"
+            android:minHeight="90dp"
             style="@style/RedButtonStyle"
             android:onClick="logOut"/>
     <LinearLayout
@@ -30,7 +29,7 @@
             android:id="@+id/menu_1_linear_layout"
             android:layout_margin="24dp"
             app:layout_constraintHeight_default="spread"
-            app:layout_constraintTop_toBottomOf="@+id/menu_my_profile_buttonTitle" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/menu_my_profile_buttonTitle" android:layout_marginTop="16dp"
             app:layout_constraintVertical_weight="3" tools:layout_editor_absoluteX="24dp">
         <ImageButton
                 android:layout_width="0dp"
@@ -39,7 +38,7 @@
                 android:id="@+id/menu_attendance_button"
                 android:layout_weight="1"
                 android:layout_marginEnd="12dp"
-                android:minHeight="100dp"
+                android:minHeight="90dp"
                 style="@style/OrangeButtonStyle"
                 android:onClick="runAttendance"/>
         <ImageButton
@@ -49,7 +48,7 @@
                 android:id="@+id/menu_users_button"
                 android:layout_weight="1"
                 android:layout_marginStart="12dp"
-                android:minHeight="100dp"
+                android:minHeight="90dp"
                 style="@style/OrangeButtonStyle"
                 android:onClick="runPeople"/>
     </LinearLayout>
@@ -60,12 +59,12 @@
                   app:layout_constraintHeight_default="spread"
 
                   app:layout_constraintTop_toBottomOf="@+id/menu_1_linear_layout"
-                  app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
                   app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
                   app:layout_constraintVertical_weight="1">
         <TextView
                 android:text="@string/menu_attendance"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/menu_users_buttonTitle"
                 android:layout_marginStart="24dp"
@@ -74,7 +73,7 @@
                 android:textAlignment="center"/>
         <TextView
                 android:text="@string/menu_users"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/menu_attendance_buttonTitle"
                 android:layout_marginStart="12dp"
@@ -87,12 +86,12 @@
             android:layout_height="wrap_content"
             app:layout_constraintHeight_default="spread"
             app:srcCompat="@drawable/user"
-            android:id="@+id/menu_my_profile_ImgButton" android:layout_marginTop="48dp"
+            android:id="@+id/menu_my_profile_ImgButton" android:layout_marginTop="32dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="24dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="24dp"
             app:layout_constraintVertical_weight="3"
-            android:minHeight="100dp"
+            android:minHeight="90dp"
             style="@style/BlueButtonStyle"
 
 
@@ -111,7 +110,7 @@
             android:layout_height="0dp"
             android:id="@+id/menu_3_linear_layout"
             android:layout_margin="24dp"
-            app:layout_constraintTop_toBottomOf="@+id/menu_2_linear_layout" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/menu_2_linear_layout" android:layout_marginTop="16dp"
             tools:layout_editor_absoluteX="24dp" app:layout_constraintVertical_weight="3">
 
         <ImageButton
@@ -121,7 +120,7 @@
                 android:id="@+id/menu_teams_button"
                 android:layout_weight="1"
                 android:layout_marginEnd="12dp"
-                android:minHeight="100dp"
+                android:minHeight="90dp"
                 style="@style/OrangeButtonStyle"
                 android:onClick="runTeam"/>
         <ImageButton
@@ -131,7 +130,7 @@
                 android:id="@+id/menu_projects_button"
                 android:layout_weight="1"
                 android:layout_marginStart="12dp"
-                android:minHeight="100dp"
+                android:minHeight="90dp"
                 style="@style/OrangeButtonStyle"
                 android:onClick="runProject"/>
     </LinearLayout>
@@ -146,7 +145,7 @@
                   app:layout_constraintVertical_weight="1">
         <TextView
                 android:text="@string/menu_teams"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/menu_teams_buttonTitle"
                 android:layout_marginStart="24dp"
@@ -155,7 +154,7 @@
                 android:textAlignment="center"/>
         <TextView
                 android:text="@string/menu_projects"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/menu_projects_buttonTitle"
                 android:layout_marginStart="12dp"
