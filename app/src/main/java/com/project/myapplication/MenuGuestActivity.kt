@@ -31,6 +31,16 @@ class MenuGuestActivity : AppCompatActivity() {
         })
     }
 
+    fun goToRegister(view: View) {
+        val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun goToMain(view: View) {
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+    }
+
     fun runPeople(view: View) {
         prepareList()
         connectionRequest.searchRequest("People", "0", "0")

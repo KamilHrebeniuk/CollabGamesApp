@@ -44,4 +44,10 @@
         <item name="android:layout_margin">24dp</item>
     </style>
 
+
+    <!-- List style -->
+
+    <style name="ListStyle" parent="Widget.AppCompat.ListView">
+        <item name="android:listSelector"></item>
+    </style>
 </resources>
