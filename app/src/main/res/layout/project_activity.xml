@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               android:orientation="vertical"
               android:id="@+id/project_activity_layout"
+              android:layout_margin="10dp"
+              android:background="@drawable/item_background"
 >
 
 
@@ -12,35 +14,70 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/name"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:background="#464a51"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:text="@string/test_string"
     />
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#9da7b7" />
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/status"
+            android:textAlignment="center"
+            android:textSize="12sp"
+
+            android:text="@string/test_string"
     />
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/start"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:text="@string/test_string"
     />
+    <!--
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/end"
-    />
-
+    />-->
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#9da7b7" />
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/description"
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/test_string"
     />
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#9da7b7" />
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/description_full"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="6dp"
+
+            android:text="@string/test_string"
     />
 
 </LinearLayout>
